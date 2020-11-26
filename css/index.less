@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+.box {
+    width: 100%;
+    height: auto;
+    header {
+        width: 100%;
+        background-color: #ff8a00;
+        height: 4.2rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .da {
+            width: 10rem;
+            height: 4rem;
+        }
+        .imgs {
+            width: 9rem;
+            height: 4.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .xiao {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+    .main {
+        width: 100%;
+        padding: 1rem 0rem;
+        background-color: #F5F5F5;
+        .search {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            .shuru {
+                outline: none;
+                width: 28.8rem;
+                height: 3.9rem;
+                line-height: 3.9rem;
+                border-radius: .5rem;
+                padding-left: 1rem;
+                color: #757575;
+                border: .1rem solid #CCCCCC;
+                background: url(./../image/SecondHandList/search_03.png) no-repeat 25.5rem 1rem #fff;
+                background-size: 2rem 2rem;
+            }
+            span {
+                position: absolute;
+                top: 1.2rem;
+                right: 6.5rem;
+            }
+        }
+        .main-top {
+            margin-top: 1rem;
+            width: 100%;
+            height: 4rem;
+            background-color: #fff;
+            border-top: .1rem solid #CCCCCC;
+            border-bottom: .1rem solid #CCCCCC;
+            .top-ul {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                .top-ul-li {
+                    width: 25%;
+                    height: 4rem;
+                    font-size: 1.8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .organge {
+                        color: #FF8A00;
+                    }
+                    a {
+                        font-weight: 600;
+                        text-decoration: none;
+                        color: #666666;
+                    }
+                    img {
+                        padding-left: .5rem;
+                    }
+                    .li-box {
+                        z-index: 99;
+                        position: absolute;
+                        top: 3.7rem;
+                        left: 0rem;
+                        display: none;
+                        width: 100%;
+                        height: 24rem;
+                        background-color: #fff;
+                        .organge {
+                            color: #FF8A00;
+                        }
+                        .ts {
+                            padding-bottom: 17.5rem;
+                            background-color: #f0f0f0;
+                        }
+                        li {
+                            font-size: 1.2rem;
+                            width: 100%;
+                            display: flex;
+                            height: 3.5rem;
+                            align-content: center;
+                            justify-content: center;
+                            background-color: #FFF;
+                            a {
+                                display: inline-block;
+                                width: 20%;
+                                flex: 1;
+                                font-size: 1.6rem;
+                                padding: .5rem 1.5rem;
+                            }
+                            
+                            .qy-box {
+                                width: 80%;
+                                ul {
+                                    width: 100%;
+                                    overflow: hidden;
+                                    li {
+                                        width: 50%;
+                                        float: left;
+                                        line-height: 3.5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .ui1 {
+                    ul {
+                        z-index: 99;
+                        position: absolute;
+                        top: 3.7rem;
+                        left: 0rem;
+                        display: none;
+                        width: 100%;
+                        height: 29rem;
+                        background-color: #fff;
+                        li {
+                            width: 88%;
+                            height: 4rem;
+                            margin: 0 2rem;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: .1rem solid #CCCCCC;
+                            a {
+                                font-weight: normal;
+                                font-size: 1.2rem;
+                            }
+                        }
+                        .wh {
+                            border-bottom: none;
+                        }
+                        .kuai {
+                            background-color: #FF8A00;
+                            justify-content: center;
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .ui2{
+                    ul  {
+                        z-index: 99;
+                        position: absolute;
+                        top: 3.7rem;
+                        left: 0rem;
+                        display: none;
+                        width: 100%;
+                        height: 72rem;
+                        background-color: #fff;
+                        li {
+                            width: 88%;
+                            height: 11rem;
+                            margin: 2rem 2rem;
+                            border-bottom: .1rem solid #CCCCCC;
+                            p {
+                                font-weight: normal;
+                                font-size: 1.6rem;
+                            }
+                            span {
+                                display: inline-block;
+                                width: 6.1rem;
+                                height: 2.5rem;
+                                line-height: 2.5rem;
+                                text-align: center;
+                                margin-top: 1.2rem;
+                                font-size: 1.2rem;
+                                border: .1rem solid #CCCCCC;
+                            }
+                        }
+                        .duo {
+                            height: 15rem;
+                        }
+                        .shao {
+                            height: 8rem;
+                        }
+                        .wh {
+                            height: 4rem;
+                            line-height: 4rem;
+                            border-bottom: none;
+                        }
+                        .kuai {
+                            text-align: center;
+                            background-color: #FF8A00;
+                            justify-content: center;
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-bottom {
+            width: 100%;
+            ul {
+                width: 86%;
+                li {
+                    margin: 2rem;
+                    width: 100%;
+                    display: flex;
+                    border-bottom: .1rem solid #FF8A00;
+                    padding-bottom: 2rem;
+                    .li-img {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 30%;
+                        flex: 1;
+                        img {
+                            width: 8.1rem;
+                            height: 8.1rem;
+                        }
+                    }
+                    .li-div {
+                        width: 50%;
+                        flex: 2;
+                        .p1 {
+                            font-weight: 600;
+                            padding-bottom: 1.4rem;
+                        }
+                        .p2 {
+                            padding-bottom:.5rem;
+                        }
+                        span {
+                            font-weight: 600;
+                            color: #FF8A00;
+                        }
+                        .p3 {
+                            padding-top: .5rem;
+                            color: #B0B0B0;
+                        }
+                    }
+                }
+            }
+        }
+        .mengcheng {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 14.5rem;
+            left: 0;
+        }
+
+    }
+    footer {
+        width: 100%;
+        height: 100%;
+        background-color: #2f3130;
+        padding-bottom: 1rem;
+        .tpu {
+            margin: 0 1.5rem;
+            width: 29rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: .1rem solid #fff;
+            font-size: 1.2rem;
+            height: 4rem;
+            color: #939494;
+        }
+        .apple {
+            margin: 2rem 0;
+            width: 100%;
+            height: 5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            img {
+                width: 4rem;
+                height: 4rem;
+            }
+            p {
+                color: #939494;
+            }
+        }
+        .fot-p {
+            color: #939494;
+            text-align: center;
+        }
+    }
+    
+}
