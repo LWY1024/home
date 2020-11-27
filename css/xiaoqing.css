@@ -18,7 +18,7 @@ li {
   justify-content: space-around;
   align-items: center;
 }
-.box header .da {
+.box header .big {
   width: 10rem;
   height: 4rem;
 }
@@ -29,7 +29,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.box header .xiao {
+.box header .small {
   width: 3rem;
   height: 3rem;
 }
@@ -43,16 +43,16 @@ li {
   background-color: #fff;
   border-bottom: 0.1rem solid #E5E5E5;
 }
-.box .main .banner .banner-shang {
+.box .main .banner .banner-up {
   width: 100%;
   height: 20rem;
   position: relative;
 }
-.box .main .banner .banner-shang img {
+.box .main .banner .banner-up img {
   width: 100%;
   height: 100%;
 }
-.box .main .banner .banner-shang p {
+.box .main .banner .banner-up p {
   position: absolute;
   bottom: 1.2rem;
   right: 0.8rem;
@@ -63,29 +63,29 @@ li {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
-.box .main .banner .banner-xia {
+.box .main .banner .banner-down {
   width: 100%;
 }
-.box .main .banner .banner-xia p {
+.box .main .banner .banner-down p {
   width: 89%;
   margin: 1rem;
 }
-.box .main .banner .banner-xia .xia1 {
+.box .main .banner .banner-down .down-plot {
   font-size: 1.8rem;
 }
-.box .main .banner .banner-xia .xia2 {
+.box .main .banner .banner-down .down-thousand {
   font-size: 1.3rem;
   height: 2rem;
   background: url(../image/SecondHandList/phone.png) no-repeat center right;
   background-size: 1.5rem 2rem;
 }
-.box .main .banner .banner-xia .xia2 span {
+.box .main .banner .banner-down .down-thousand span {
   color: #DB4C3F;
 }
-.box .main .banner .banner-xia .xia3 {
+.box .main .banner .banner-down .down-time {
   color: #B0B0B0;
 }
-.box .main .banner .banner-xia .xia4 span {
+.box .main .banner .banner-down .down-chunk span {
   height: 2.6rem;
   text-align: center;
   line-height: 2.6rem;
@@ -93,13 +93,13 @@ li {
   background-color: #DEE9F0;
   color: #849AAE;
 }
-.box .main .banner .banner-xia .xia4 span:nth-child(1) {
+.box .main .banner .banner-down .down-chunk span:nth-child(1) {
   width: 4.6rem;
 }
-.box .main .banner .banner-xia .xia4 span:nth-child(2) {
+.box .main .banner .banner-down .down-chunk span:nth-child(2) {
   width: 3.4rem;
 }
-.box .main .banner .banner-xia .xia4 span:nth-child(3) {
+.box .main .banner .banner-down .down-chunk span:nth-child(3) {
   width: 5.8rem;
 }
 .box .main .main-top {
@@ -124,7 +124,7 @@ li {
 .box .main .main-top ul li span {
   width: 40%;
 }
-.box .main .main-top ul .tb {
+.box .main .main-top ul .li-line {
   width: 86%;
   justify-content: flex-start;
 }
@@ -144,14 +144,14 @@ li {
   width: 88%;
   margin: 0 2rem;
 }
-.box .main .main-topp .fy {
+.box .main .main-topp .home-source {
   font-weight: 600;
   color: #FF9326;
   font-size: 1.6rem;
   line-height: 5rem;
   border-bottom: 0.1rem solid #E5E5E5;
 }
-.box .main .main-topp .dl {
+.box .main .main-topp .home-plot {
   padding: 2rem 0 ;
   border-bottom: 0.1rem solid #E5E5E5;
 }
@@ -168,7 +168,7 @@ li {
   border-bottom: 0.1rem solid #E5E5E5;
   border-top: 0.1rem solid #E5E5E5;
 }
-.box .main .main-center .fj {
+.box .main .main-center .home-family {
   font-weight: 600;
   width: 88%;
   margin: 0 2rem;
@@ -201,11 +201,11 @@ li {
   width: 50%;
   flex: 2;
 }
-.box .main .main-center ul li .li-div .p1 {
+.box .main .main-center ul li .li-div .li-div-setup {
   font-weight: 600;
   padding-bottom: 1.4rem;
 }
-.box .main .main-center ul li .li-div .p2 {
+.box .main .main-center ul li .li-div .li-div-message {
   padding-bottom: 1rem;
 }
 .box .main .main-center ul li .li-div span {
@@ -218,7 +218,7 @@ li {
   text-align: center;
   line-height: 2.6rem;
 }
-.box .main .main-center ul li .li-div .p3 {
+.box .main .main-center ul li .li-div .north-and-south {
   padding-top: 0.5rem;
   color: #B0B0B0;
 }
@@ -255,81 +255,81 @@ li {
   line-height: 5rem;
   border-bottom: 0.1rem solid #E5E5E5;
 }
-.box .main .zhoubian {
+.box .main .location {
   width: 100%;
   background-color: #fff;
   margin-top: 1.2rem;
   border-bottom: 0.1rem solid #E5E5E5;
   border-top: 0.1rem solid #E5E5E5;
 }
-.box .main .zhoubian #map {
+.box .main .location #map {
   width: 88%;
   margin: 2rem;
   height: 20rem;
 }
-.box .main .tuijian {
+.box .main .recommend {
   width: 100%;
   background-color: #fff;
   margin-top: 1.2rem;
   border-bottom: 0.1rem solid #E5E5E5;
   border-top: 0.1rem solid #E5E5E5;
 }
-.box .main .tuijian .tf {
+.box .main .recommend .chamber {
   width: 100%;
   padding-left: 2rem;
   margin: 0;
 }
-.box .main .tuijian .mo-th {
+.box .main .recommend .up-through {
   border-top: 0.1rem solid #E5E5E5;
 }
-.box .main .tuijian ul {
+.box .main .recommend ul {
   width: 86%;
 }
-.box .main .tuijian ul li {
+.box .main .recommend ul li {
   position: relative;
   margin: 2rem 2rem 0 2rem;
   width: 100%;
   border-bottom: 0.1rem solid #E5E5E5;
 }
-.box .main .tuijian ul li .li-top {
+.box .main .recommend ul li .li-top {
   width: 100%;
   display: flex;
 }
-.box .main .tuijian ul li .li-top .li-img {
+.box .main .recommend ul li .li-top .li-img {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
   flex: 1;
 }
-.box .main .tuijian ul li .li-top .li-img img {
+.box .main .recommend ul li .li-top .li-img img {
   width: 8.1rem;
   height: 8.1rem;
 }
-.box .main .tuijian ul li .li-top .li-div {
+.box .main .recommend ul li .li-top .li-divs {
   width: 70%;
   flex: 2;
 }
-.box .main .tuijian ul li .li-top .li-div .p1 {
+.box .main .recommend ul li .li-top .li-divs .li-divs-title {
   font-weight: 600;
   padding-bottom: 1.4rem;
   font-size: 1.8rem;
 }
-.box .main .tuijian ul li .li-top .li-div .p2 {
+.box .main .recommend ul li .li-top .li-divs .li-divs-about {
   padding-bottom: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.box .main .tuijian ul li .li-top .li-div .or {
+.box .main .recommend ul li .li-top .li-divs .or {
   font-weight: 600;
   color: #FF8A00;
 }
-.box .main .tuijian ul li .li-top .li-div .p3 {
+.box .main .recommend ul li .li-top .li-divs .li-divs-around {
   padding-top: 0.5rem;
   color: #B0B0B0;
 }
-.box .main .tuijian ul li .li-top .li-div .p4 {
+.box .main .recommend ul li .li-top .li-divs .school-district {
   color: #849AAE;
   margin-right: 0.4rem;
   text-align: center;
@@ -338,7 +338,10 @@ li {
   height: 2rem;
   background-color: #F4F7F9;
 }
-.box .main .tuijian ul .icon {
+.box .main .recommend ul .wu-throug {
+  border-bottom: none;
+}
+.box .main .recommend ul .icon {
   width: 100%;
   height: 3.6rem;
   padding: 0 2rem;
@@ -348,7 +351,7 @@ li {
   align-items: center;
   background-color: #F2F2F2;
 }
-.box .main .tuijian ul .icon img {
+.box .main .recommend ul .icon img {
   width: 1.6rem;
   height: 0.8rem;
   position: absolute;
@@ -400,7 +403,7 @@ li {
   align-items: center;
   background-color: #F5F5F5;
 }
-.box .dw .dw1 {
+.box .dw .dw-left {
   width: 20rem;
   height: 4rem;
   border-radius: 5px;
@@ -410,7 +413,7 @@ li {
   justify-content: center;
   align-items: center;
 }
-.box .dw .dw2 {
+.box .dw .dw-right {
   width: 30%;
   color: #666666;
   display: flex;

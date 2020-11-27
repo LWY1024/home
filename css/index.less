@@ -5,6 +5,10 @@
 ul,li {
     list-style: none;
 }
+.bcolor {
+    background-color: #FF8A00;
+    color: #fff;
+}
 .box {
     width: 100%;
     height: auto;
@@ -15,7 +19,7 @@ ul,li {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        .da {
+        .big {
             width: 10rem;
             height: 4rem;
         }
@@ -26,7 +30,7 @@ ul,li {
             justify-content: space-between;
             align-items: center;
         }
-        .xiao {
+        .small {
             width: 3rem;
             height: 3rem;
         }
@@ -40,7 +44,7 @@ ul,li {
             display: flex;
             justify-content: center;
             position: relative;
-            .shuru {
+            .import {
                 outline: none;
                 width: 28.8rem;
                 height: 3.9rem;
@@ -92,51 +96,63 @@ ul,li {
                     .li-box {
                         z-index: 99;
                         position: absolute;
-                        top: 3.7rem;
+                        top: 4rem;
                         left: 0rem;
                         display: none;
                         width: 100%;
                         height: 24rem;
-                        background-color: #fff;
                         .organge {
                             color: #FF8A00;
                         }
-                        .ts {
-                            padding-bottom: 17.5rem;
-                            background-color: #f0f0f0;
-                        }
+                        // .special {
+                        //     padding-bottom: 17rem;
+                        //     // background-color: #f0f0f0;
+                        // }
                         li {
                             font-size: 1.2rem;
                             width: 100%;
                             display: flex;
                             height: 3.5rem;
                             align-content: center;
-                            justify-content: center;
-                            background-color: #FFF;
+                            justify-content: space-between;
                             a {
                                 display: inline-block;
                                 width: 20%;
-                                flex: 1;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                                 font-size: 1.6rem;
-                                padding: .5rem 1.5rem;
+                                background-color: #f0f0f0;
                             }
-                            
+                            .metro {
+                                background-color: #fff;
+                            }
                             .qy-box {
                                 width: 80%;
+                                position: absolute;
+                                top: 0rem;
+                                left: 6.4rem;
                                 ul {
                                     width: 100%;
                                     overflow: hidden;
+                                    background-color: #fff;
                                     li {
                                         width: 50%;
                                         float: left;
                                         line-height: 3.5rem;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    li:hover {
+                                        color: #FF8A00;
                                     }
                                 }
                             }
                         }
                     }
                 }
-                .ui1 {
+                .uiprice {
                     ul {
                         z-index: 99;
                         position: absolute;
@@ -159,10 +175,10 @@ ul,li {
                                 font-size: 1.2rem;
                             }
                         }
-                        .wh {
+                        .confirm {
                             border-bottom: none;
                         }
-                        .kuai {
+                        .ensure {
                             background-color: #FF8A00;
                             justify-content: center;
                             a {
@@ -171,7 +187,7 @@ ul,li {
                         }
                     }
                 }
-                .ui2{
+                .uimore{
                     ul  {
                         z-index: 99;
                         position: absolute;
@@ -200,19 +216,26 @@ ul,li {
                                 font-size: 1.2rem;
                                 border: .1rem solid #CCCCCC;
                             }
+                            .bcolor {
+                                background-color: #FF8A00;
+                                color: #fff;
+                            }
                         }
-                        .duo {
+                        .tag {
                             height: 15rem;
                         }
-                        .shao {
+                        .level {
                             height: 8rem;
                         }
-                        .wh {
+                        .floor {
+                            height: 8rem;
+                        }
+                        .confirm {
                             height: 4rem;
                             line-height: 4rem;
                             border-bottom: none;
                         }
-                        .kuai {
+                        .ensure {
                             text-align: center;
                             background-color: #FF8A00;
                             justify-content: center;
@@ -248,18 +271,18 @@ ul,li {
                     .li-div {
                         width: 50%;
                         flex: 2;
-                        .p1 {
+                        .bedroom {
                             font-weight: 600;
                             padding-bottom: 1.4rem;
                         }
-                        .p2 {
+                        .northwest {
                             padding-bottom:.5rem;
                         }
                         span {
                             font-weight: 600;
                             color: #FF8A00;
                         }
-                        .p3 {
+                        .sign {
                             padding-top: .5rem;
                             color: #B0B0B0;
                         }

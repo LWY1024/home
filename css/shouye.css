@@ -18,7 +18,7 @@ li {
   justify-content: space-around;
   align-items: center;
 }
-.box header .da {
+.box header .big {
   width: 10rem;
   height: 4rem;
 }
@@ -29,7 +29,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.box header .xiao {
+.box header .small {
   width: 3rem;
   height: 3rem;
 }
@@ -135,29 +135,29 @@ li {
   width: 50%;
   flex: 2;
 }
-.box .main .main-bottom ul li .li-div .p1 {
+.box .main .main-bottom ul li .li-div .li-div-title {
   font-weight: 600;
   padding-bottom: 1.4rem;
   font-size: 1.8rem;
 }
-.box .main .main-bottom ul li .li-div .p2 {
+.box .main .main-bottom ul li .li-div .li-div-thousand {
   padding-bottom: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.box .main .main-bottom ul li .li-div .or {
+.box .main .main-bottom ul li .li-div .oragnes {
   font-weight: 600;
   color: #FF8A00;
 }
-.box .main .main-bottom ul li .li-div .p3 {
+.box .main .main-bottom ul li .li-div .li-div-between {
   padding-top: 0.5rem;
   color: #B0B0B0;
 }
-.box .main .main-bottom ul li .li-div .p4 {
+.box .main .main-bottom ul li .li-div .li-div-both {
   color: #849AAE;
 }
-.box .main .main-bottom ul li .li-div .p4 span {
+.box .main .main-bottom ul li .li-div .li-div-both span {
   margin-right: 0.4rem;
   text-align: center;
   line-height: 2rem;
@@ -172,37 +172,36 @@ li {
   background-color: #fff;
   border-top: 1px solid #E5E5E5;
 }
-.box .main .main-fot .fot-shang {
+.box .main .main-fot .fot-up {
   height: 5.5rem;
   border-bottom: 0.1rem solid #FF8A00;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.box .main .main-fot .fot-shang a {
+.box .main .main-fot .fot-up a {
+  width: 50%;
   text-decoration: none;
-  color: #FF8A00;
+  color: #666666;
   font-size: 1.7rem;
   height: 5.5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.box .main .main-fot .fot-shang .bot {
+.box .main .main-fot .fot-up .bot {
+  color: #FF8A00;
   border-bottom: 0.2rem solid #FF8A00;
 }
-.box .main .main-fot .fot-shang .c-c {
-  color: #666666;
-}
-.box .main .main-fot .xia {
+.box .main .main-fot .fot-down {
   width: 100%;
   display: flex;
 }
-.box .main .main-fot .xia ul {
+.box .main .main-fot .fot-down ul {
   overflow: hidden;
   padding: 2rem;
 }
-.box .main .main-fot .xia ul li {
+.box .main .main-fot .fot-down ul li {
   width: 37%;
   float: left;
   padding: 1rem;
@@ -254,28 +253,32 @@ li {
   left: 0;
   background-color: rgba(0, 0, 0, 0.9);
 }
-.box .dw .dw1 {
+.box .dw .close {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.box .dw .dw-left {
   width: 20%;
   flex: 1;
   margin-left: 3rem;
 }
-.box .dw .dw1 img {
+.box .dw .dw-left img {
   width: 4rem;
   height: 4rem;
 }
-.box .dw .dw2 {
+.box .dw .dw-center {
   width: 50%;
   flex: 3;
 }
-.box .dw .dw2 .dw2-one {
+.box .dw .dw-center .dw2-one {
   font-size: 1.6rem;
   color: #fff;
 }
-.box .dw .dw2 .dw2-two {
+.box .dw .dw-center .dw2-two {
   font-size: 1.2rem;
   color: #fff;
 }
-.box .dw .dw3 {
+.box .dw .dw-right {
   width: 30%;
   flex: 2;
   width: 10.8rem;

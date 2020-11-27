@@ -12,10 +12,10 @@
     <div class="box">
         <!-- 头 -->
         <header>
-            <img src="./image/index/logo.jpg" class="da">
+            <img src="./image/index/logo.jpg" class="big">
             <div class="imgs">
-                <img src="./image/index/my.jpg"  class="xiao">
-                <img src="./image/index/xiazai.jpg" class="xiao">
+                <img src="./image/index/my.jpg"  class="small">
+                <img src="./image/index/xiazai.jpg" class="small">
             </div>
         </header>
         <div class="main">
@@ -54,10 +54,10 @@
                             <img src="./image/SecondHandList/img1.png" alt="">
                         </div>
                         <div class="li-div">
-                            <p class="p1">文化部中间层一层带..</p>
-                            <p class="p2"><span>2室1厅96m南北</span><span class="or">1105万</span></p>
-                            <p class="p3 p2">红庙北里<span>14268元/平</span></p>
-                            <p class="p4"><span>学区房</span><span>独家</span></p>
+                            <p class="li-div-title">文化部中间层一层带..</p>
+                            <p class="li-div-thousand"><span>2室1厅96m南北</span><span class="oragnes">1105万</span></p>
+                            <p class="li-div-between li-div-thousand">红庙北里<span>14268元/平</span></p>
+                            <p class="li-div-both"><span>学区房</span><span>独家</span></p>
                         </div>
                     </li>
                     <li>
@@ -65,10 +65,10 @@
                             <img src="./image/SecondHandList/img2.png" alt="">
                         </div>
                         <div class="li-div">
-                            <p class="p1">光大水墨精装复式...</p>
-                            <p class="p2"><span>2室1厅96m南北</span><span class="or">280万</span></p>
-                            <p class="p3 p2">光大水墨<span>14268元/平</span></p>
-                            <p class="p4"><span>学区房</span><span>独家</span><span>满五唯一</span></p>
+                            <p class="li-div-title">光大水墨精装复式...</p>
+                            <p class="li-div-thousand"><span>2室1厅96m南北</span><span class="oragnes">280万</span></p>
+                            <p class="li-div-between li-div-thousand">光大水墨<span>14268元/平</span></p>
+                            <p class="li-div-both"><span>学区房</span><span>独家</span><span>满五唯一</span></p>
                         </div>
                     </li>
                     <li>
@@ -76,20 +76,20 @@
                             <img src="./image/SecondHandList/img3.png" alt="">
                         </div>
                         <div class="li-div">
-                            <p class="p1">南北通透两居精装修..</p>
-                            <p class="p2"><span>2室1厅96m南北</span><span class="or">1105万</span></p>
-                            <p class="p3 p2">北京新天地<span>14268元/平</span></p>
-                            <p class="p4"><span>地铁房</span><span>独家</span></p>
+                            <p class="li-div-title">南北通透两居精装修..</p>
+                            <p class="li-div-thousand"><span>2室1厅96m南北</span><span class="oragnes">1105万</span></p>
+                            <p class="li-div-between li-div-thousand">北京新天地<span>14268元/平</span></p>
+                            <p class="li-div-both"><span>地铁房</span><span>独家</span></p>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="main-fot">
-                <div class="fot-shang">
-                    <a href="#" class="bot">热门关注</a>
-                    <a href="#" class="c-c">友情链接</a>
+                <div class="fot-up">
+                    <a href="javascript:;" class="attention">热门关注</a>
+                    <a href="javascript:;" class="links">友情链接</a>
                 </div>
-                <div class="xia">
+                <div class="fot-down">
                     <ul>
                         <li>北京二手房</li>
                         <li>北京二手房价</li>
@@ -122,14 +122,37 @@
             <p class="fot-p">网络经营许可证京ICP备20160812号</p>
         </footer>
         <div class="dw">
-            <div class="dw1"><img src="./image/index/download.png" alt=""></div>
-            <div class="dw2">
+            <img src="./image/index/close.png" class="close">
+            <div class="dw-left"><img src="./image/index/download.png" alt=""></div>
+            <div class="dw-center">
                 <p class="dw2-one">找房无忧</p>
                 <p class="dw2-two">市场行情，一手掌握！</p>
             </div>
-            <div class="dw3">免费下载</div>
+            <div class="dw-right">免费下载</div>
         </div>
     </div>
 </body>
+<script src="./js/jquery-3.5.1.min.js"></script>
 <script src="./js/index.js"></script>
+<script>
+    // 下方关闭
+var timer = null;
+$('.close').on('touchstart',function(){
+  $('.close').parents('.dw').hide();
+  timer=setInterval(function(){
+    $('.close').parents('.dw').show();
+  },5000);
+});
+
+$('.fot-up').find('.attention').on('touchstart',function(){
+  $(this).addClass('bot');
+  $('.fot-up').find('.links').removeClass('bot');
+});
+$('.fot-up').find('.links').on('touchstart',function(){
+  $(this).addClass('bot');
+  $('.fot-up').find('.attention').removeClass('bot');
+});
+
+
+</script>
 </html>
